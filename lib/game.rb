@@ -3,6 +3,7 @@ require 'unicode_utils/downcase'
 # Основной класс игры. Хранит состояние игры и предоставляет функции
 # для развития игры (ввод новых букв, подсчет кол-ва ошибок и т. п.)
 
+
 class Game
 
   attr_reader :errors, :letters, :good_letters, :bad_letters
